@@ -1,1 +1,1 @@
-
+The Food Order Management System is a console-based application developed in Java, utilizing MySQL for database management and JDBC for database connectivity. The application is designed to streamline the process of ordering food, managing menu items, and handling administrative tasks. It offers distinct interfaces for users and administrators, ensuring a smooth and efficient user experience. The project is implemented using Eclipse as the text editor and development environment.
