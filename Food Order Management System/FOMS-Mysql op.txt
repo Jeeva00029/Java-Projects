@@ -1,0 +1,101 @@
+Enter password: ******
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 97
+Server version: 8.0.36 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2024, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> use food_order_mgement_sys
+Database changed
+mysql> show tables;
++----------------------------------+
+| Tables_in_food_order_mgement_sys |
++----------------------------------+
+| admin                            |
+| confirm_orders                   |
+| customer                         |
+| menu_items                       |
+| orders                           |
+| users                            |
++----------------------------------+
+6 rows in set (0.30 sec)
+
+mysql> select * from admin;
++----+--------+-----------------+
+| ID | UserID | Password        |
++----+--------+-----------------+
+|  1 |  12345 | foodordersystem |
++----+--------+-----------------+
+1 row in set (0.13 sec)
+
+mysql> select * from users;
++----+--------+-----------+
+| ID | UserID | Password  |
++----+--------+-----------+
+|  1 | 270203 | Jeeva25   |
+|  2 | 909090 | Jeeva0029 |
++----+--------+-----------+
+2 rows in set (0.00 sec)
+
+mysql> select * from customer;
++--------+------------+----------+------------+
+| UserID | Cname      | location | phno       |
++--------+------------+----------+------------+
+| 270203 | Jeeva V    | Chennai  | 9344325854 |
+| 909090 | Jeeva Velu | Chennai  | 8015807605 |
++--------+------------+----------+------------+
+2 rows in set (0.00 sec)
+
+mysql> select * from menu_items;
++--------+------------------------+-------+
+| MenuID | ItemName               | Price |
++--------+------------------------+-------+
+|   1237 | Double Chocolate Icone |    60 |
+|   1329 | Kaju Katri             |   290 |
+|   1421 | Dairy Milk Silk        |   191 |
+|   1432 | Dark Chocolate         |   200 |
+|   1444 | Gulab Jamun            |   224 |
+|   1458 | Peanut Chikki          |    87 |
+|   1569 | Smoothie               |    55 |
+|   2319 | Ghee Burfi             |   157 |
+|   2341 | Soan Papdi             |    62 |
+|   2817 | Ghee Mysore Pak        |   197 |
+|   3459 | Swiss Roll             |    60 |
+|   4529 | Choco Pie              |   156 |
+|   4589 | Zep Cake               |   159 |
+|   5874 | Pancake Syrup          |   220 |
+|   7865 | Chocobakes             |    78 |
+|   7869 | Frozen Dessart         |   205 |
+|   8769 | choco Fudge            |   271 |
+|   8967 | Instant Dry Yeast      |    45 |
+|   9834 | Milkmaid Tin           |   147 |
++--------+------------------------+-------+
+19 rows in set (0.03 sec)
+
+mysql> select * from orders;
++---------+--------+--------+-------------------+----------+
+| OrderID | UserID | MenuID | ItemName          | Quantity |
++---------+--------+--------+-------------------+----------+
+|       1 | 270203 |   5874 | Pancake Syrup     |        5 |
+|       2 | 270203 |   8967 | Instant Dry Yeast |        3 |
+|       3 | 909090 |   8769 | Choco Fudge       |        3 |
+|       4 | 909090 |   9834 | Milkmaid Tin      |        9 |
++---------+--------+--------+-------------------+----------+
+4 rows in set (0.00 sec)
+
+mysql> select * from confirm_orders;
++---------+--------+-----------+--------+
+| OrderID | UserID | Total_Amt | Status |
++---------+--------+-----------+--------+
+|       1 | 270203 |      1235 | Paid   |
+|       2 | 909090 |      2136 | Paid   |
++---------+--------+-----------+--------+
+2 rows in set (0.05 sec)
+
+mysql>

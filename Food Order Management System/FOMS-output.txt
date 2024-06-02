@@ -1,0 +1,328 @@
+//User Login Output
+***********WELCOME TO ABC SUPERMARKET APPLICATION**********
+Pls Enter (User/Admin):user
+1.Existing User
+2.New User
+Enter the Choice:2
+Create the UserID:252525
+Create the Password:order123
+Id and Password Created...
+1.Existing User
+2.New User
+Enter the Choice:1
+Enter the UserID:252525
+Enter the Password:order123
+Are you Completed Filling Your Details?(yes/no):no
+----------------------------------------------------------------------------------
+Enter Your UserID:252525
+Enter Your Name:Samkaran J
+Enter Your Location:Coimbatore
+Enter Your Phone No.:7808347820
+Deatails Successfully Added...
+----------------------------------------------------------------------------------
+**********Welcome to DashBoard************
+1.Menu Items
+2.Add Items
+3.Show Ordered Items
+4.Edit Items
+5.Delete Items
+6.Order Summary
+7.Exit
+Enter the Choice:
+1
+
+<----------------------------MENU ITEMS---------------------------->
+MenuID:1237
+Food Name:Double Chocolate Icone
+Price:60.0
+
+MenuID:1329
+Food Name:Kaju Katri
+Price:290.0
+
+MenuID:1421
+Food Name:Dairy Milk Silk
+Price:191.0
+
+MenuID:1432
+Food Name:Dark Chocolate
+Price:200.0
+
+MenuID:1444
+Food Name:Gulab Jamun
+Price:224.0
+
+MenuID:1458
+Food Name:Peanut Chikki
+Price:87.0
+
+MenuID:1569
+Food Name:Smoothie
+Price:55.0
+
+MenuID:2319
+Food Name:Ghee Burfi
+Price:157.0
+
+MenuID:2341
+Food Name:Soan Papdi
+Price:62.0
+
+MenuID:2817
+Food Name:Ghee Mysore Pak
+Price:197.0
+
+MenuID:3459
+Food Name:Swiss Roll
+Price:60.0
+
+MenuID:4529
+Food Name:Choco Pie
+Price:156.0
+
+MenuID:4589
+Food Name:Zep Cake
+Price:159.0
+
+MenuID:5874
+Food Name:Pancake Syrup
+Price:220.0
+
+MenuID:7865
+Food Name:Chocobakes
+Price:78.0
+
+MenuID:7869
+Food Name:Frozen Dessart
+Price:205.0
+
+MenuID:8769
+Food Name:choco Fudge
+Price:271.0
+
+MenuID:8967
+Food Name:Instant Dry Yeast
+Price:45.0
+
+MenuID:9834
+Food Name:Milkmaid Tin
+Price:147.0
+
+----------------------------------------------------------------------------------
+1.Menu Items
+2.Add Items
+3.Show Ordered Items
+4.Edit Items
+5.Delete Items
+6.Order Summary
+7.Exit
+Enter the Choice:
+2
+
+Enter your UserID:252525
+Enter the Menu ID:5874
+Enter the Item Name:Pancake Syrup
+Enter the Quantity:3
+Item Added
+----------------------------------------------------------------------------------
+1.Menu Items
+2.Add Items
+3.Show Ordered Items
+4.Edit Items
+5.Delete Items
+6.Order Summary
+7.Exit
+Enter the Choice:
+2
+
+Enter your UserID:252525
+Enter the Menu ID:8967
+Enter the Item Name:Instant Dry Yeast
+Enter the Quantity:6
+Item Added
+----------------------------------------------------------------------------------
+1.Menu Items
+2.Add Items
+3.Show Ordered Items
+4.Edit Items
+5.Delete Items
+6.Order Summary
+7.Exit
+Enter the Choice:
+2
+
+Enter your UserID:252525
+Enter the Menu ID:4589
+Enter the Item Name:Zep cake
+Enter the Quantity:8
+Item Added
+----------------------------------------------------------------------------------
+1.Menu Items
+2.Add Items
+3.Show Ordered Items
+4.Edit Items
+5.Delete Items
+6.Order Summary
+7.Exit
+Enter the Choice:
+3
+
+Enter your UserID:252525
+Order ID:6
+Menu ID:5874
+Ordered Item:Pancake Syrup
+Quantity:3
+
+Order ID:7
+Menu ID:8967
+Ordered Item:Instant Dry Yeast
+Quantity:6
+
+Order ID:8
+Menu ID:4589
+Ordered Item:Zep cake
+Quantity:8
+
+----------------------------------------------------------------------------------
+1.Menu Items
+2.Add Items
+3.Show Ordered Items
+4.Edit Items
+5.Delete Items
+6.Order Summary
+7.Exit
+Enter the Choice:
+4
+
+Enter your UserID:252525
+Enter the OrderID(if you know use 'Show Ordered'):6
+Enter the Menu ID:5874
+Enter the Item Name:Pancake Syrup
+Enter the Quantity:9
+Update Succesfully
+----------------------------------------------------------------------------------
+1.Menu Items
+2.Add Items
+3.Show Ordered Items
+4.Edit Items
+5.Delete Items
+6.Order Summary
+7.Exit
+Enter the Choice:
+5
+
+Enter your UserID:252525
+Enter the OrderID(if you know use 'Show Ordered'):7
+Item Deleted
+----------------------------------------------------------------------------------
+1.Menu Items
+2.Add Items
+3.Show Ordered Items
+4.Edit Items
+5.Delete Items
+6.Order Summary
+7.Exit
+Enter the Choice:
+6
+
+Enter your UserID:
+252525
+<------------------------ORDER SUMMARY---------------------->
+User ID:252525
+Customer Name:Samkaran J
+Location:Coimbatore
+Customer Phoneno.:7808347820
+
+User ID:270203
+Customer Name:Jeeva V
+Location:Chennai
+Customer Phoneno.:9344325854
+
+User ID:909090
+Customer Name:Jeeva Velu
+Location:Chennai
+Customer Phoneno.:8015807605
+
+
+Order ID:6
+Menu ID:5874
+Ordered Item:Pancake Syrup
+Quantity:9
+
+Order ID:8
+Menu ID:4589
+Ordered Item:Zep cake
+Quantity:8
+
+
+Total Payable Amount:3252(All tax includs)
+<-----------Pay a Amount---------->
+Are you Paid your amount(yes/no):
+yes
+*****Your Order Placed*****
+Thank You for Booking With Us!!
+Visit Again
+
+
+//Admin Login Output
+
+***********WELCOME TO ABC SUPERMARKET APPLICATION**********
+Pls Enter (User/Admin):admin
+Enter the UserID:12345
+Enter the Password:foodordersystem
+****Welcome to DashBoard****
+1.Show Orders
+2.Show Customers Details
+3.Show MenuItems
+4.Add MenuItems
+5.Edit MenuItems
+6.Delete MenuItems
+7.Confirm Orders List
+8.Exit
+Enter the Choice:4
+Enter the MenuId:0003
+Enter the ItemName:choclate cake
+Enter the Price:34
+Item Added...
+----------------------------------------------------------------------------------
+1.Show Orders
+2.Show Customers Details
+3.Show MenuItems
+4.Add MenuItems
+5.Edit MenuItems
+6.Delete MenuItems
+7.Confirm Orders List
+8.Exit
+Enter the Choice:6
+Enter the MenuId:0003
+Menu Item Deleted...
+----------------------------------------------------------------------------------
+1.Show Orders
+2.Show Customers Details
+3.Show MenuItems
+4.Add MenuItems
+5.Edit MenuItems
+6.Delete MenuItems
+7.Confirm Orders List
+8.Exit
+Enter the Choice:7
+OrderId:1
+UserId:270203
+Total Amt:1235.0
+Order Status:Paid
+OrderId:2
+UserId:909090
+Total Amt:2136.0
+Order Status:Paid
+----------------------------------------------------------------------------------
+1.Show Orders
+2.Show Customers Details
+3.Show MenuItems
+4.Add MenuItems
+5.Edit MenuItems
+6.Delete MenuItems
+7.Confirm Orders List
+8.Exit
+Enter the Choice:8
+Thank You Visited
+----------------------------------------------------------------------------------
